@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
-//lore te amo ❤️ 
 struct automovel {
   int id;
   char marca[50];
