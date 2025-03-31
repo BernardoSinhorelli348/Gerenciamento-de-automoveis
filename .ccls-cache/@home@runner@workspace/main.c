@@ -445,7 +445,7 @@ int main() {
             printf("Erro ao abrir arquivo\n");
         } else {
             int acho = 0;
-            while (fread(&aut, sizeof(c), 1, arquivo)) {
+             do{
                 if (aut.id == id) { 
                   printf("carro encontrado!\n");
                   printf("//------------------------------//\n");
@@ -462,7 +462,7 @@ int main() {
                   acho = 1;
                   break;
                 }
-            }
+            }while (fread(&aut, sizeof(c), 1, arquivo));
             if (acho != 1) {
                 printf("Carro com ID %i não encontrado.\n", id);
             }
