@@ -449,7 +449,7 @@ int main() {
                 if (aut.id == id) { 
                   printf("carro encontrado!\n");
                   printf("//------------------------------//\n");
-                  printf("\nid: %i", aut.id);
+                  printf("id: %i", aut.id);
                   printf("\nmarca: %s", aut.marca);
                   printf("\nmodelo: %s", aut.modelo);
                   printf("\ncor: %s", aut.cor);
